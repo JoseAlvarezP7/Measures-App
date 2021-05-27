@@ -25,7 +25,6 @@ class _MyAppState extends State<MyApp> {
 
   void initState() {
     _numberFrom = 0;
-    // _startMeasure = 'miles';
     super.initState();
   }
 
@@ -161,7 +160,7 @@ class _MyAppState extends State<MyApp> {
                 keyboardType: TextInputType.number,
                 style: inputStyle,
                 decoration: InputDecoration(
-                  hintText: "Please insert the measure to be converted",
+                  hintText: "Please enter value",
                 ),
                 onChanged: (text) {
                   var rv = double.tryParse(text);
