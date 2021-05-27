@@ -1,6 +1,6 @@
-# measures_app
+# Measures App
 
-A new Flutter project.
+Measures conversion application, it will convert from metric to imperial and vice versa.
 
 ## Getting Started
 
