@@ -2,15 +2,9 @@
 
 Measures conversion application, it will convert from metric to imperial and vice versa.
 
-## Getting Started
+## Screenshot
 
-This project is a starting point for a Flutter application.
+![Animated GIF-downsized_large](https://user-images.githubusercontent.com/84021391/119909940-ac429900-bf1b-11eb-9c6c-2323294520ca.gif)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Credits
+The reference and inspiration for this project was taken from [Flutter Projects.](https://subscription.packtpub.com/book/mobile/9781838647773/2 "Flutter Projects.")
