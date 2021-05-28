@@ -8,6 +8,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  //Variables
   final TextStyle inputStyle = TextStyle(
     fontSize: 20,
     color: Colors.blue[900],
@@ -61,6 +62,7 @@ class _MyAppState extends State<MyApp> {
     '7': [0, 0, 28.3495, 0.0283495, 3.28084, 0, 0.0625, 1],
   };
 
+  //Formula
   void convert(double value, String from, String to) {
     int nFrom = _measuresMap[from];
     int nTo = _measuresMap[to];
@@ -80,6 +82,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Measures Converter',
       home: Scaffold(
         appBar: AppBar(
